@@ -1,0 +1,20 @@
+GET http://127.0.0.1:5000/product
+
+###
+GET http://127.0.0.1:5000/
+
+###
+POST http://127.0.0.1:5000/product
+Content-Type: application/json
+
+{
+    
+        "product" : "Zineta Slip On Brown Sandals for Women",
+        "price" : "$19.00",
+        "category" : "Woman Fashion",
+        "imageURL" : "https://i.ibb.co/L6090PY/Image-1.png",
+        "kota" : "Kota Yogyakarta"
+    
+}
+###
+DELETE http://127.0.0.1:5000/product/63adae73ac322ca183c7f5d9
