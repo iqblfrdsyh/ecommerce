@@ -1,0 +1,10 @@
+.search {
+  width: 500px;
+}
+
+.dropdown-category {
+  background-color: #52057b;
+  color: white;
+  padding: 7px 20px 7px 20px;
+  border-radius: 5px;
+}

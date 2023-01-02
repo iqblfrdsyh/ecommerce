@@ -1,10 +1,14 @@
 import Catergory from "../components/category/Catergory";
+import NavigationBar from "../components/layouts/NavigationBar";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="Home">
+    <Container className="home">
+      <NavigationBar />
       <Catergory />
-    </div>
+    </Container>
+
   );
 }
 
