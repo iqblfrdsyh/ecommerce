@@ -1,3 +1,5 @@
+/* new features */
+
 .product,
 .stock {
   font-size: 14px;
@@ -37,4 +39,28 @@
   background: linear-gradient(90deg, #f857a6 0%, #ff5858 100%);
   box-shadow: 7px 7px 10px #fe5860;
   border-radius: 8px;
+}
+
+/* End */
+
+/* recommended */
+
+.recomend-card {
+  width: 335px;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.desc {
+  padding: 0 10px;
+}
+
+.desc-border-1 {
+  border-left: 3px solid #0052d4;
+}
+
+.desc-border-2 {
+  border-left: 3px solid #ec008c;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./new-features.css";
+import "../new-features.css";
 
 const CardFeatures = (props) => {
   return (
