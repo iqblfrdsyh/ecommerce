@@ -5,7 +5,7 @@ import CtaCategory from "./CtaCategory";
 const Catergory = () => {
   return (
     <div className="category">
-      <h2>Choice Category</h2>
+      <h3>Choice Category</h3>
       <div className="d-flex flex-wrap justify-content-between">
         <CtaCategory
           name="Man Fashion"

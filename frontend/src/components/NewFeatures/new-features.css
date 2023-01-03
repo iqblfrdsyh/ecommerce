@@ -1,8 +1,40 @@
-.popular {
+.product,
+.stock {
+  font-size: 14px;
+}
+
+.card-features {
   width: 263px;
   height: 111px;
   padding: 16px 24px;
+}
+
+.popular {
   background: linear-gradient(90deg, #bf5ae0 0%, #a811da 100%);
   box-shadow: 7px 6px 28px #ab19db;
+  border-radius: 8px;
+}
+
+.most-wanted {
+  background: linear-gradient(90deg, #06beb6 0%, #48b1bf 100%);
+  box-shadow: 6px 7px 14px #1cbab9;
+  border-radius: 8px;
+}
+
+.top-fashion {
+  background: linear-gradient(90deg, #f85032 0%, #e73827 100%);
+  box-shadow: 6px 8px 18px #e83a28;
+  border-radius: 8px;
+}
+
+.bestseller {
+  background: linear-gradient(90deg, #fe8c00 0%, #f83600 100%);
+  box-shadow: 7px 7px 10px #f93e00;
+  border-radius: 8px;
+}
+
+.best-shop {
+  background: linear-gradient(90deg, #f857a6 0%, #ff5858 100%);
+  box-shadow: 7px 7px 10px #fe5860;
   border-radius: 8px;
 }
