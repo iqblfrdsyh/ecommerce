@@ -31,8 +31,10 @@ const CardFlashSale = () => {
               <p className="text-secondary mt-3">{product.category}</p>
               <h5 className="name-product fw-bold">{product.product}</h5>
               <div className="price d-flex fw-bold">
-                <p className="text-secondary">{product.realPrice}</p>
-                <p className="ms-2">{product.discountPrice}</p>
+                <p className="text-secondary text-decoration-line-through">
+                  {product.realPrice}
+                </p>
+                <p className="ms-2 ">{product.discountPrice}</p>
                 <p className="ms-4 text-danger">{product.discount}</p>
               </div>
               <div className="d-flex justify-content-between">
