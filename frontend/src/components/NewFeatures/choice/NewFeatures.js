@@ -4,7 +4,7 @@ import CardFeatures from "./CardFeatures";
 const NewFeatures = () => {
   return (
     <div className="new-features mt-5">
-      <h3>Now Easier To Choose</h3>
+      <h3 className="fw-bold">Now Easier To Choose</h3>
       <div className="d-flex flex-wrap justify-content-center mt-4">
         <CardFeatures
           classCard="popular"
