@@ -1,0 +1,8 @@
+.popular {
+  width: 263px;
+  height: 111px;
+  padding: 16px 24px;
+  background: linear-gradient(90deg, #bf5ae0 0%, #a811da 100%);
+  box-shadow: 7px 6px 28px #ab19db;
+  border-radius: 8px;
+}
