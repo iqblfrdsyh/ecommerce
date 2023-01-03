@@ -1,0 +1,19 @@
+.card-flash-sale {
+  width: 240px;
+  background-color: black;
+}
+
+.image-flash-sale {
+  width: auto;
+  height: 175px;
+  background-color: #e6e8ec;
+}
+
+.name-product {
+  height: 75px;
+}
+
+.card-flash-sale progress {
+  height: 25px;
+  width: 100px;
+}
