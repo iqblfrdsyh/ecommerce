@@ -1,14 +1,15 @@
-import Catergory from "../../components/category/Catergory";
-import NewFeatures from "../../components/NewFeatures/NewFeatures";
-import "./home.css";
+import Catergory from "../components/category/Catergory";
+import NavigationBar from "../components/layouts/NavigationBar";
+import { Container } from "react-bootstrap";
 
-function Home() {
+function App() {
   return (
-    <div className="Home">
+    <Container className="home">
+      <NavigationBar />
       <Catergory />
-      <NewFeatures />
-    </div>
+    </Container>
+
   );
 }
 
-export default Home;
+export default App;
