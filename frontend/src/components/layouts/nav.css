@@ -1,19 +1,20 @@
 .navbar1 {
   background-color: #212121;
   font-size: 15px;
+  opacity: 1 !important;
 }
 .nav-brand1 {
-  font-size: 17px !important;
+  font-size: 16px !important;
 }
 .navbar2 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.223) !important;
   margin-bottom: 50px;
 }
-.navbar-brand {
+.navbar-brand2 {
   display: flex;
   align-items: center;
   font-family: "Inter";
-  font-size: 23px;
+  font-size: 20px !important;
   font-weight: 500;
   margin-right: 20px !important;
 }
@@ -31,7 +32,8 @@
   align-items: center;
 }
 .search {
-  width: 400px !important;
+  margin-left: 10px;
+  width: 430px !important;
   padding: 10px !important;
 }
 
@@ -45,12 +47,12 @@
 .profile {
   display: flex;
   align-items: center;
-  width: 250px;
+  width: 100%;
   padding: 10px;
   justify-content: space-evenly;
 }
 .profile .logo img {
-  margin-right: 15px;
+  margin-right: 1vw;
 }
 .profile .user .profileUser {
   display: flex;
