@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import Catergory from "../../components/category/Catergory";
 import FlashSale from "../../components/flashSale/FlashSale";
 import NavigationBar from "../../components/layouts/NavigationBar";
@@ -6,12 +7,16 @@ import "./home.css";
 
 function App() {
   return (
-    <div className="home">
-      <NavigationBar />
-      <Catergory />
-      <FlashSale />
-      <NewFeatures />
-    </div>
+    <Fragment>
+      <div className="Navbar">
+        <NavigationBar />
+      </div>
+      <div className="home">
+        <Catergory />
+        <FlashSale />
+        <NewFeatures />
+      </div>
+    </Fragment>
   );
 }
 

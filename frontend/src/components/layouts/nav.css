@@ -1,4 +1,11 @@
-.navbar {
+.navbar1 {
+  background-color: #212121;
+  font-size: 15px;
+}
+.nav-brand1 {
+  font-size: 17px !important;
+}
+.navbar2 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.223) !important;
   margin-bottom: 50px;
 }
@@ -8,22 +15,24 @@
   font-family: "Inter";
   font-size: 23px;
   font-weight: 500;
-  margin-right: 30px !important;
+  margin-right: 20px !important;
 }
 
 .navbar-brand img {
   margin-right: 10px;
 }
+
 .nav {
-  display: flex;
-  align-items: center;
+  margin-right: 20px !important;
 }
 
 .form {
   margin-right: 20px;
+  align-items: center;
 }
 .search {
-  width: 550px !important;
+  width: 400px !important;
+  padding: 10px !important;
 }
 
 .dropdown-category {
