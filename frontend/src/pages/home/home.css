@@ -4,3 +4,14 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
 }
+
+.card-product {
+  width: 240px;
+  /* background-color: black; */
+}
+
+.image-product {
+  width: auto;
+  height: 175px;
+  background-color: #e6e8ec;
+}

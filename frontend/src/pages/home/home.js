@@ -5,7 +5,7 @@ import "./home.css";
 import React from "react";
 import Catergory from "../../components/product/category/Catergory";
 import FlashSale from "../../components/product/flashSale/FlashSale";
-import OnlyForYou from "../../components/product/CardProduct";
+import OnlyForYou from "../../components/product/OFY/OnlyForYou";
 
 function App() {
   return (

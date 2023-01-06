@@ -24,8 +24,8 @@ const CardFlashSale = () => {
     <React.Fragment>
       {product.map((product) => {
         return (
-          <div className="card card-flash-sale m-3 mt-4">
-            <div className="image-flash-sale p-4 d-flex justify-content-center rounded">
+          <div className="card card-product m-3 mt-4">
+            <div className="image-product p-4 d-flex justify-content-center rounded">
               <img src={product.imageURL} alt="" />
             </div>
             <div className="px-3">

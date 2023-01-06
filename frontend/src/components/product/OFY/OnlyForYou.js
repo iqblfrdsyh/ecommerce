@@ -5,7 +5,7 @@ const OnlyForYou = () => {
   return (
     <div>
       <div>
-        <h3 className="fw-bold mt-5">November Flash Sale</h3>
+        <h3 className="fw-bold mt-5">Today Is Only For You</h3>
       </div>
       <div className="d-flex flex-wrap">
         <CardProduct />
