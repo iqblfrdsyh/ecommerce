@@ -30,7 +30,7 @@ const CardFlashSale = () => {
             </div>
             <div className="px-3">
               <p className="text-secondary mt-3">{product.category}</p>
-              <h5 className="name-product fw-bold">{product.product}</h5>
+              <h5 className="name-product">{product.product}</h5>
               <div className="price d-flex fw-bold justify-content-between">
                 <p className="text-secondary text-decoration-line-through">
                   {product.realPrice}

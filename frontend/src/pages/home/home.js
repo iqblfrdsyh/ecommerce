@@ -5,6 +5,7 @@ import "./home.css";
 import React from "react";
 import Catergory from "../../components/product/category/Catergory";
 import FlashSale from "../../components/product/flashSale/FlashSale";
+import OnlyForYou from "../../components/product/CardProduct";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Catergory />
         <FlashSale />
         <NewFeatures />
+        <OnlyForYou />
       </Container>
     </div>
   );
