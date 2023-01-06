@@ -16,6 +16,11 @@ function App() {
         <FlashSale />
         <NewFeatures />
         <OnlyForYou />
+        <img
+          style={{ maxWidth: "1100px", margin: "30px 50px" }}
+          src="assets/event/Banner.png"
+          alt=""
+        />
       </Container>
     </div>
   );
