@@ -8,18 +8,14 @@ import FlashSale from "../../components/product/flashSale/FlashSale";
 
 function App() {
   return (
-    <React.Fragment>
-      <div className="Navbar">
-        <NavigationBar />
-      </div>
-      <div className="home">
-        <Container>
-          <Catergory />
-          <FlashSale />
-          <NewFeatures />
-        </Container>
-      </div>
-    </React.Fragment>
+    <div className="home">
+      <NavigationBar />
+      <Container>
+        <Catergory />
+        <FlashSale />
+        <NewFeatures />
+      </Container>
+    </div>
   );
 }
 
