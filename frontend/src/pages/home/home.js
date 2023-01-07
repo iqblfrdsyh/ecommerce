@@ -6,18 +6,20 @@ import React from "react";
 import Catergory from "../../components/product/category/Catergory";
 import FlashSale from "../../components/product/flashSale/FlashSale";
 import OnlyForYou from "../../components/product/OFY/OnlyForYou";
+import Payment from "../../components/Payment/Payment";
 
 function App() {
   return (
     <div className="home">
       <NavigationBar />
       <Container>
+        <Payment />
         <Catergory />
         <FlashSale />
         <NewFeatures />
         <OnlyForYou />
         <img
-          style={{ maxWidth: "1100px", margin: "30px 50px" }}
+          style={{ maxWidth: "100%" }}
           src="assets/event/Banner.png"
           alt=""
         />

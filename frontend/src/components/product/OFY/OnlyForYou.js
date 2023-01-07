@@ -7,7 +7,7 @@ const OnlyForYou = () => {
       <div>
         <h3 className="fw-bold mt-5">Today Is Only For You</h3>
       </div>
-      <div className="d-flex flex-wrap">
+      <div className="d-flex flex-wrap justify-content-center">
         <CardProduct />
       </div>
     </div>

@@ -6,7 +6,7 @@ const FlashSale = () => {
   return (
     <div>
       <h3 className="fw-bold mt-5">November Super Flash Sale ⚡</h3>
-      <div className="d-flex flex-wrap">
+      <div className="d-flex flex-wrap justify-content-center">
         <CardFlashSale />
       </div>
     </div>
