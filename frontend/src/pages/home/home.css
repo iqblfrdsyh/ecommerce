@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
 
+* {
+  /* outline: 1px dotted red; */
+}
+
 .home {
   padding: 0px 80px;
   font-family: "Inter", sans-serif;

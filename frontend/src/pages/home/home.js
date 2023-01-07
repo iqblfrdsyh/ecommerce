@@ -8,7 +8,7 @@ import "./home.css";
 function App() {
   return (
     <Fragment>
-      <div className="Navbar">
+      <div className="nsavbar">
         <NavigationBar />
       </div>
       <div className="home">

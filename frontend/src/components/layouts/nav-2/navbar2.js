@@ -25,7 +25,7 @@ const Nav2 = () => {
                         navbarScroll
                     >
                         <NavDropdown
-                            title="Bandung, Indonesia"
+                            title="Indonesia, Bandung"
                             id="navbarScrollingDropdown"
                         >
                             <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
