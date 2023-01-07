@@ -5,7 +5,7 @@ const RecomendedCard = (props) => {
     <div className="card recomend-card mt-4">
       <div className={`desc fw-bold ${props.colorBorder}`}>{props.desc}</div>
       <div className="image mt-4 rounded">
-        <img src={props.image} alt="" />
+        <img src={props.image1} alt="" />
         <img className="ms-1" src={props.image2} alt="" />
       </div>
     </div>
