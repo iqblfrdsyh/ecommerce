@@ -1,9 +1,10 @@
 import NavigationBar from "../../components/layouts/NavigationBar";
+import Footer from "../../components/layouts/Footer";
 import NewFeatures from "../../components/NewFeatures/NewFeatures";
 import { Container } from "react-bootstrap";
 import "./home.css";
 import React from "react";
-import Catergory from "../../components/product/category/Catergory";
+import Category from "../../components/category/Catergory"
 import FlashSale from "../../components/product/flashSale/FlashSale";
 import OnlyForYou from "../../components/product/OFY/OnlyForYou";
 import Payment from "../../components/Payment/Payment";
@@ -14,7 +15,7 @@ function App() {
       <NavigationBar />
       <Container>
         <Payment />
-        <Catergory />
+        <Category />
         <FlashSale />
         <NewFeatures />
         <OnlyForYou />
@@ -24,6 +25,7 @@ function App() {
           alt=""
         />
       </Container>
+      <Footer />
     </div>
   );
 }

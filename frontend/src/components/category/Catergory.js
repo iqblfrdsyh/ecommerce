@@ -2,7 +2,7 @@ import React from "react";
 import "./category.css";
 import CtaCategory from "./CtaCategory";
 
-const Catergory = () => {
+const Category = () => {
   return (
     <div className="category mt-5">
       <h3 className="fw-bold">Choice Category</h3>
@@ -41,4 +41,4 @@ const Catergory = () => {
   );
 };
 
-export default Catergory;
+export default Category;

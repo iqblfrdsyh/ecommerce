@@ -12,6 +12,7 @@
 /* CSS Navbar 2 */
 .navbar2 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.223);
+  margin-bottom: 30px;
 }
 .navbar-brand2 {
   display: flex;
@@ -67,14 +68,3 @@
   height: 25px;
 }
 /* End 2 */
-
-/* CSS Navbar 3 */
-.navbar3 {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.223);
-  margin-bottom: 50px;
-}
-.navbar-brand3 {
-  font-size: 17px !important;
-}
-
-/* End 3 */

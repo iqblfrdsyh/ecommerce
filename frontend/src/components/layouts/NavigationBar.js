@@ -1,4 +1,3 @@
-import React from "react";
 import "./nav.css";
 import Nav1 from "./nav-1/navbar1";
 import Nav2 from "./nav-2/navbar2";
