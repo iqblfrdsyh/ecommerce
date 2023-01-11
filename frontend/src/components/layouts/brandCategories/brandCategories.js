@@ -1,12 +1,12 @@
-import { Col, Row, Container } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import "../footer.css";
 
 const BrandCategories = () => {
   return (
-    <Container className="BrandCategories">
+    <div className="BrandCategories">
       <Row>
         <Col className="mb-4">
-          <h4>Brand & Categories</h4>
+          <h4 className="fw-bold">Brand & Categories</h4>
         </Col>
       </Row>
       <Row>
@@ -99,7 +99,7 @@ const BrandCategories = () => {
           <p>PAUSMEN</p>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 };
 

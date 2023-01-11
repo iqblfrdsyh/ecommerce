@@ -1,9 +1,8 @@
 .BrandCategories {
   margin-top: 100px;
-  margin-bottom: 200px;
   border-top: 1px solid rgba(0, 0, 0, 0.223);
   border-bottom: 1px solid rgba(0, 0, 0, 0.223);
-  padding: 50px 0 30px 0;
+  padding: 50px 0 50px 0;
 }
 
 .BrandCategories > .row > .col > h5 {
@@ -14,4 +13,10 @@
 .BrandCategories > .row > .col > p {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.332);
+}
+
+.PaymentMethod {
+  padding: 50px 0 50px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.223);
+  margin-bottom: 100px;
 }
