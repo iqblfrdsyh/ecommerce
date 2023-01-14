@@ -4,10 +4,11 @@ import NewFeatures from "../../components/NewFeatures/NewFeatures";
 import { Container } from "react-bootstrap";
 import "./home.css";
 import React from "react";
-import Category from "../../components/category/Catergory"
+import Category from "../../components/category/Catergory";
 import FlashSale from "../../components/product/flashSale/FlashSale";
 import OnlyForYou from "../../components/product/OFY/OnlyForYou";
 import Payment from "../../components/Payment/Payment";
+import OurRecommen from "../../components/product/ORFY/OurRecommen";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           src="assets/event/Banner.png"
           alt=""
         />
+        <OurRecommen />
       </Container>
       <Footer />
     </div>

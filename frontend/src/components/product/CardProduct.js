@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-const CardProduct = () => {
+const CardProduct = (props) => {
   const [product, setProduct] = useState([]);
 
   useEffect(() => {
@@ -10,9 +10,7 @@ const CardProduct = () => {
 
   const getProduct = async () => {
     try {
-      const res = await axios.get(
-        "https://data.mongodb-api.com/app/data-dmsea/endpoint/product/2"
-      );
+      const res = await axios.get(`${props.API}`);
 
       setProduct(res.data);
     } catch (error) {
