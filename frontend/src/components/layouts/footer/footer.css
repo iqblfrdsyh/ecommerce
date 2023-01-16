@@ -1,0 +1,58 @@
+/* Brand Categories */
+.BrandCategories {
+  padding: 50px 0 50px 0;
+  margin-top: 100px;
+  border-top: 1px solid rgba(0, 0, 0, 0.223);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.223);
+}
+
+.BrandCategories > .row > .col > h5 {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.BrandCategories > .row > .col > p {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.332);
+}
+/* end */
+
+/* Payment Method */
+.PaymentMethod {
+  padding: 50px 0 50px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.223);
+}
+/* End */
+
+/* ZS-AOJS (Zero Shop & Advantages Of Joining Slabshop ) */
+.ZS-AOJS {
+  padding: 50px 0 25px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.223);
+  margin-bottom: 10px;
+}
+
+.ZS-AOJS > .zeroShop > .row > .col > p {
+  color: rgba(0, 0, 0, 0.332);
+}
+.ZS-AOJS > .Aojs > .row > .col > p {
+  color: rgba(0, 0, 0, 0.332);
+}
+
+.ZS-AOJS .Aojs a {
+  color: #000;
+  text-decoration: none;
+}
+/* End */
+
+/* footer */
+.footer {
+  padding: 16px 0 10px 0;
+}
+.footer > p {
+  color: #212121;
+}
+.footer .privacy p a {
+  margin-right: 25px;
+  color: #212121 !important;
+}
+/* End */

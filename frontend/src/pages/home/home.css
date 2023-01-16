@@ -2,6 +2,7 @@
 
 * {
   /* outline: 1px dotted red; */
+  text-decoration: none !important;
 }
 
 .home {

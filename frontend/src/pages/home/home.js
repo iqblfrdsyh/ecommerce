@@ -1,5 +1,5 @@
-import NavigationBar from "../../components/layouts/NavigationBar";
-import Footer from "../../components/layouts/Footer";
+import NavigationBar from "../../components/layouts/navbar/NavigationBar";
+import Footer from "../../components/layouts/footer/Footer";
 import NewFeatures from "../../components/NewFeatures/NewFeatures";
 import { Container } from "react-bootstrap";
 import "./home.css";
